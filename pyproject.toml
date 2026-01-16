@@ -1,0 +1,22 @@
+[project]
+name = "spec-image-experiment"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "wangxy1816-cyber", email = "wangxy1816@gmail.com" }
+]
+requires-python = ">=3.8"
+dependencies = [
+    "matplotlib>=3.7.5",
+    "numpy>=1.24.4",
+    "pandas>=2.0.3",
+    "requests>=2.32.4",
+    "scikit-learn>=1.3.2",
+    "tqdm>=4.67.1",
+    "xlrd>=2.0.2",
+]
+
+[build-system]
+requires = ["uv_build>=0.9.26,<0.10.0"]
+build-backend = "uv_build"
